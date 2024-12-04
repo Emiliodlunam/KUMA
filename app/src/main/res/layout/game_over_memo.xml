@@ -1,0 +1,68 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/background_gradient">
+
+    <TextView
+        android:id="@+id/Endgame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Juego Terminado!"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/gameOverMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="28sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/difficultyTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reiniciar"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/menuMemoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menú Memo"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/menuPrincipalButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menú Principal" />
+
+    <Button
+        android:id="@+id/viewScoresButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ver Puntajes"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

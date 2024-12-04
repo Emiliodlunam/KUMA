@@ -1,0 +1,146 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Título con Imagen -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingBottom="16dp">
+
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/kuma"
+            android:contentDescription="Icono del título"
+            android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KUMA"
+                android:textSize="24sp"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="#333" />
+        </LinearLayout>
+
+        <!-- Cards de Actividades -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardActivity1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/imageActivity1"
+                    android:layout_width="295dp"
+                    android:layout_height="159dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/card_game" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Memorama"
+                    android:textSize="18sp"
+                    android:paddingTop="8dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="#333" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardActivity2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/imageActivity2"
+                    android:layout_width="292dp"
+                    android:layout_height="165dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/laberinto" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Laberinto"
+                    android:textSize="18sp"
+                    android:paddingTop="8dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="#333" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardActivity3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/imageActivity3"
+                    android:layout_width="292dp"
+                    android:layout_height="146dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/operaciones" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Operaciones"
+                    android:textSize="18sp"
+                    android:paddingTop="8dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="#333" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- Página de Créditos -->
+        <TextView
+            android:id="@+id/creditsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Créditos"
+            android:textSize="16sp"
+            android:paddingTop="16dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#555" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,108 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Créditos"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#333"
+            android:paddingBottom="16dp" />
+
+        <!-- Imagen decorativa -->
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/kuma"
+        android:contentDescription="Icono de créditos"
+        android:layout_marginBottom="16dp" />
+
+        <!-- Información de los creadores -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Desarrollado por:"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/white"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Carrillo Díaz Sara Yatzil "
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/white"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- De Luna Monreal Emilio Josué"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/white"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Escalera Moreno Lesley Naomy"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/white"
+            android:paddingBottom="16dp" />
+
+        <!-- Agradecimientos -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agradecimientos especiales:"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/white"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Comunidad Android"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/white"
+            android:paddingBottom="4dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Recursos en línea"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/white"
+            android:paddingBottom="16dp" />
+
+        <!-- Mensaje Final -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gracias por utilizar nuestra aplicación."
+            android:textSize="16sp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:paddingTop="16dp" />
+    </LinearLayout>
+</ScrollView>
